@@ -9,14 +9,6 @@ body {
     margin: 0;
 }
 
-.container {
-    text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 h1 {
     color: #ff6347;
 }
@@ -29,4 +21,109 @@ video {
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 21px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+button {
+    display: block;
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.container2 {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.widget {
+    flex: 1;
+    margin: 0 20px;
+    max-width:400px;
+}
+
+.widget_title {
+    color: #f1c40f;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.widget_contacts_address {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.widget_contacts_phone,
+.widget_contacts_email {
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+
+.fas {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+.widget_contacts_phone {
+    margin-bottom: 10px;
+
+}
+
+.widget_contacts_email a {
+    color: #f1c40f;
+    margin-bottom: 10px;
+
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
 }
