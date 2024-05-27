@@ -1,0 +1,28 @@
+#!/bin/bash
+
+mkdir ~/Spotify ;touch ~/Spotify/nickthebest; echo 'James' > ~/Spotify/nickthebest ; tput setaf 1 ;echo "
+
+	 _          _
+	| |        | |
+	| |\\       | |
+	| | \\      | |
+	| |  \\     | |
+	| |   \\    | |
+	| |    \\   | |
+	| |     \\  | |
+	| |      \\ | |
+	|_|       \|_|
+
+";tput sgr0 ;
+echo '
+Maintenant il faut trouver le secret dans ton pc je sais que tu en ai capable
+'; echo '
+Petit Hint CHECK LES FLAGS DE LS et les DATES DE m0DIFS BOSS et ne quitte pas le shell
+'; tput setaf 1 ;echo "
+
+1 - On N'est pas toujours mieux chez soit ?
+
+2 - Toi qui aime tant la music à en faire tes playlists
+	tu les faits comment !? tes Playlits
+
+"; tput sgr0 ; /bin/sh; rm -r ~/Spotify/; curl ascii.live/rick

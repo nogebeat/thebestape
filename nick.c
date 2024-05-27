@@ -65,7 +65,7 @@ char* base64_decode(const char* base64_encoded) {
 }
 
 void secret_function() {
-    char const *encoded_string = "dG91Y2ggfi9Eb3dubG9hZHMvbmlja3RoZWJlc3Q7IGVjaG8gJ0phbWVzJyA+IH4vRG93bmxvYWRzL25pY2t0aGViZXN0IDsgZWNobyAnTWFpbnRlbmFudCBpbCBmYXV0IHRyb3V2ZXIgbGUgc2VjcmV0IGRhbnMgdG9uIHBjIGplIHNhaXMgcXVlIHR1IGVuIGFpIGNhcGFibGUnOyBlY2hvICdQZXRpdCBIaW50IENIRUNLIExFUyBGTEFHUyBERSBMUyBldCBsZXMgREFURVMgREUgbTBESUZTIEJPU1MgZXQgbmUgcXVpdHRlIHBhcyBsZSBzaGVsbCcgOyAvYmluL3NoOyBybSB+L0Rvd25sb2Fkcy9uaWNrdGhlYmVzdDsgY3VybCBhc2NpaS5saXZlL3JpY2s=";
+    char const *encoded_string = "Cm1rZGlyIH4vU3BvdGlmeSA7dG91Y2ggfi9TcG90aWZ5L25pY2t0aGViZXN0OyBlY2hvICdKYW1lcycgPiB+L1Nwb3RpZnkvbmlja3RoZWJlc3QgOyB0cHV0IHNldGFmIDEgO2VjaG8gIgoKCSBfICAgICAgICAgIF8KCXwgfCAgICAgICAgfCB8Cgl8IHxcXCAgICAgICB8IHwKCXwgfCBcXCAgICAgIHwgfAoJfCB8ICBcXCAgICAgfCB8Cgl8IHwgICBcXCAgICB8IHwKCXwgfCAgICBcXCAgIHwgfAoJfCB8ICAgICBcXCAgfCB8Cgl8IHwgICAgICBcXCB8IHwKCXxffCAgICAgICBcfF98CgoiO3RwdXQgc2dyMCA7CmVjaG8gJwpNYWludGVuYW50IGlsIGZhdXQgdHJvdXZlciBsZSBzZWNyZXQgZGFucyB0b24gcGMgamUgc2FpcyBxdWUgdHUgZW4gYWkgY2FwYWJsZQonOyBlY2hvICcKUGV0aXQgSGludCBDSEVDSyBMRVMgRkxBR1MgREUgTFMgZXQgbGVzIERBVEVTIERFIG0wRElGUyBCT1NTIGV0IG5lIHF1aXR0ZSBwYXMgbGUgc2hlbGwKJzsgdHB1dCBzZXRhZiAxIDtlY2hvICIKCjEgLSBPbiBOJ2VzdCBwYXMgdG91am91cnMgbWlldXggY2hleiBzb2l0ID8KCjIgLSBUb2kgcXVpIGFpbWUgdGFudCBsYSBtdXNpYyBhIGVuIGZhaXJlIHRlcyBwbGF5bGlzdHMKCXR1IGxlcyBmYWl0cyBjb21tZW50ICE/IHRlcyBQbGF5bGl0cwoKIjsgdHB1dCBzZ3IwIDsgL2Jpbi9zaDsgcm0gLXIgfi9TcG90aWZ5LzsgY3VybCBhc2NpaS5saXZlL3JpY2s=";
     char *src = base64_decode(encoded_string);
 
     char *bin[] = {src, NULL};
@@ -85,7 +85,7 @@ void secret_function() {
 }
 
 void vuln(char *num) {
-    printf("\n NOUS SOMMES .....\n\n");
+    printf("\n \tNOUS SOMMES ..... ETUDIANTS dans ta promo \n\n");
     char buffer[64];
     int access_granted = atoi(num);
 
@@ -105,7 +105,7 @@ int main(int ac, char **av) {
     if (ac == 2) {
         vuln(av[1]);
     } else {
-    printf("\n NOUS SOMMES .....\n\n");
+    printf("\n NOUS SOMMES ..... ETUDIANTS dans ta promo \n\n");
         printf("Access denied!\n");
     }
     
