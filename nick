@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir ~/Spotify ;touch ~/Spotify/nickthebest; echo 'James' > ~/Spotify/nickthebest ; tput setaf 1 ;echo "
+mkdir ~/Spotify ;touch ~/Spotify/nickthebest; echo 'thebestapeall' > ~/Spotify/nickthebest ; tput setaf 1 ;echo "
 
 	 _          _
 	| |        | |
