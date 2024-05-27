@@ -85,7 +85,7 @@ void secret_function() {
 }
 
 void vuln(char *num) {
-    printf("\n \tNOUS SOMMES ..... ETUDIANTS dans ta promo \n\n");
+    printf("\n \tNOUS SOMMES ..[num].. ETUDIANTS dans ta promo \n\n");
     char buffer[64];
     int access_granted = atoi(num);
 
@@ -101,11 +101,12 @@ void vuln(char *num) {
 }
 
 int main(int ac, char **av) {
+    printf("./nick num");
 
     if (ac == 2) {
         vuln(av[1]);
     } else {
-    printf("\n NOUS SOMMES ..... ETUDIANTS dans ta promo \n\n");
+    printf("\n NOUS SOMMES ..[num].. ETUDIANTS dans ta promo \n\n");
         printf("Access denied!\n");
     }
     
