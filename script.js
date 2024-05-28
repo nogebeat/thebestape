@@ -6,6 +6,7 @@ const quotes = [
     { text: "Joyeux anniversaire bro ❤😹 Tout le meilleur pour toi.", author: "Modeste" },
     { text: "Hbd. Garde toujours cette énegrie débordante qui te caractérise tant", author: "Mary Ange" },
     { text: "Joyeux anniversaire boss. N'arrête jamais de répandre ta joie de vivre autour de toi", author: "Soraya" },
+    { text: "echo 'efeJ eiv eugnoL .setnannoissap setrevuocéd ed te sèccus ed eilpmer tios eénna ettec euQ .rûs sulp euqirémun ednom el erdner ed icreM' | rev", author: "Cephax"},
 ];
 
 const quotes2 = [
